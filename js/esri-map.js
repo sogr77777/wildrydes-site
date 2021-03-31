@@ -23,7 +23,9 @@ WildRydes.map = WildRydes.map || {};
         var map = new Map({ basemap: 'gray-vector' });
 
         var view = new MapView({
-            center: [-122.31, 47.60],
+            // center: [-122.31, 47.60],
+            center: [-87.62, 41.87],
+            // this is Chicago
             container: 'map',
             map: map,
             zoom: 12

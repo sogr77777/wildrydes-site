@@ -91,6 +91,7 @@ function findUnicorn(pickupLocation) {
 function recordRide(rideId, username, unicorn) {
     return ddb.put({
         TableName: 'Rides',
+        // bingo! here is table name, casesentive
         Item: {
             RideId: rideId,
             User: username,
