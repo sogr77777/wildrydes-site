@@ -2,7 +2,7 @@
 
 var WildRydes = window.WildRydes || {};
 WildRydes.map = WildRydes.map || {};
-
+// Esri's GIS mapping software is the most powerful mapping & spatial analytics technology available. Learn how businesses are using location intelligence to gain .
 (function esriMapScopeWrapper($) {
     require([
         'esri/Map',
